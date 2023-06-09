@@ -2,7 +2,9 @@
 import socket
 import os
 import random
+import sys
 import time
+import threading
 
 B = '\033[1m'
 R = '\033[31m'
@@ -11,6 +13,7 @@ N = '\033[0m'
 white = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(21000)
 threads = random._urandom(21000)
+sent = random._urandom(21000)
 os.system("clear")
 print(" ")
 print("                              $$\                       $ \                     ")
@@ -28,9 +31,9 @@ print()
 print("[" + B + "" + R + "#" + N + "] " + B + "" + R + "Author : White Eagle" + N + "   Eagle Dos From - " + B + "" + R + "WH1T3" + N)
 print()
 print("\033[32m================================================================\033[0m")
-print("\033[32mTool devoloped : white-eagle\033[0m")
-print("\033[33mGithub 	       : https://github.com/WH1T3-E4GL3/\033[0m")
-print("\033[33mTelegram       : https://t.me/Ka_KsHi_HaTaKe\033[0m")
+print("\033[32mTool devoloped : ChristExtion\033[0m")
+print("\033[33mGithub 	       : https://github.com/Christ-Extion/\033[0m")
+print("\033[33mTelegram       : https://t.me.go-Christ_Extion\033[0m")
 print("\033[32m================================================================\033[0m")
 print()
 
